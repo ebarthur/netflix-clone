@@ -1,2 +1,2 @@
-# netflix-clone
+# Traversy Media inspired.
  
