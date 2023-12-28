@@ -374,4 +374,9 @@ footer .footer-cols{
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .btn-xl{
+        font-size: 1.0rem;
+        padding: 1.4rem 2rem;
 }
