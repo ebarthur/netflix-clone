@@ -222,7 +222,7 @@ footer .footer-cols{
 }
 
 .footer li{
-    line-height:1.9 ;
+    line-height:1.9;
 }
 
 /*Container*/
@@ -306,12 +306,14 @@ footer .footer-cols{
     }
 
     .showcase-content h1{
-        font-size: 3.7rem;
+        font-size: 2.7rem;
         line-height: 1;
+        opacity: 0.8;
     }
 
     .showcase-content p {
         font-size: 1.5rem;
+        opacity: 0.8;
     }
 
     .btn-xl{
@@ -320,7 +322,7 @@ footer .footer-cols{
     }
 
     .text-xl{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .text-lg{
