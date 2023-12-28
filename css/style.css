@@ -312,12 +312,12 @@ footer .footer-cols{
     }
 
     .showcase-content p {
-        font-size: 1.5rem;
-        opacity: 0.8;
+        font-size: 1.3rem;
+        opacity: 0.9;
     }
 
     .btn-xl{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 1.4rem 2rem;
     }
 
@@ -358,4 +358,20 @@ footer .footer-cols{
     #tab-2-content .tab-2-content-bottom{
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width:430px) {
+    .showcase-top a {
+        position: absolute;
+        top:50%;
+        right: -5%;
+    }
+
+    .tabs .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 3rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 }
