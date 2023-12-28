@@ -333,6 +333,7 @@ footer .footer-cols{
 
     footer .footer-cols{
         grid-template-columns: repeat(2,1fr);
+        text-decoration: underline;
     }
 }
 
