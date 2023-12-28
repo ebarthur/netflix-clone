@@ -259,11 +259,13 @@ footer .footer-cols{
     font-size: 2rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 .btn-lg{
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 /*Text*/
