@@ -254,18 +254,21 @@ footer .footer-cols{
 }
 .btn-rounded{
     border-radius: 5px;
+    font-weight: bold;
 }
 .btn-xl{
     font-size: 2rem;
-    padding: 1.5rem 2.1rem;
+    padding: 1.2rem 2.1rem;
     text-transform: uppercase;
     border-radius: 5px;
+    font-weight: bold;
 }
 .btn-lg{
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 /*Text*/
@@ -381,10 +384,38 @@ footer .footer-cols{
     .btn-xl{
         font-size: 1.0rem;
         padding: 1.4rem 2rem;
+        width: 200px;
+        height: 60px;
     }
 
     .text-lg{
         font-size: 1.2rem;
         margin-bottom: 1rem;
+    }
+
+    .showcase-top img{
+        width: 100px;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+
+    .showcase-content h1{
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-weight: 100%;
+    }
+
+    .showcase-content p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+    }
+
+    .showcase::after{
+        box-shadow: inset 0 15px 50px #000000,inset 0 -15px 50px #000000;
+    }
+
+    .showcase-content a{
+        font-weight: 500%;
     }
 }
