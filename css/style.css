@@ -367,7 +367,7 @@ footer .footer-cols{
 
 @media (max-width:430px) {
     .showcase{
-        min-height: 100vh;
+        min-height: 90vh;
     }
     
     .showcase-top a {
@@ -379,10 +379,11 @@ footer .footer-cols{
     .tabs .container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 3rem;
+        grid-gap: 3.5rem;
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-top: none;
     }
 
     .btn-xl{
