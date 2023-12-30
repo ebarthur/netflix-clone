@@ -366,6 +366,10 @@ footer .footer-cols{
 }
 
 @media (max-width:430px) {
+    .showcase{
+        min-height: 100vh;
+    }
+    
     .showcase-top a {
         position: absolute;
         top:50%;
