@@ -391,11 +391,13 @@ footer .footer-cols{
 
 @media (max-width:480px) {
     .showcase{
-        height: 100vh;
+        height: 80vh;
         border-left: 1px;
         border-right: 1px;
-        
+    }
 
+    .showcase-content{
+        margin-top: 5rem;
     }
     
     .showcase-top a {
