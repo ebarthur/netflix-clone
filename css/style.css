@@ -20,6 +20,7 @@ ul{
 }
 h1,h2,h3,h4{
     color: white;
+    font-size: 2.5rem;
 }
 a{
     color: white;
@@ -48,7 +49,7 @@ img{
     height: 100%;
     z-index: 1;
     background: rgba(0,0,0,0.6);
-    box-shadow: inset 120px 100px 250px #000000,inset -120px -100px 250px #000000;
+    box-shadow: inset 120px 100px 250px #0000005a,inset -120px -100px 250px #0000004c;
 }
 .showcase-top{
     position: relative;
@@ -89,11 +90,30 @@ img{
     margin-bottom: 2rem;
 }
 .showcase-content p {
+    font-family: sans-serif;
     color: white;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 1.25;
     margin: 0 0 2rem;
+}
+
+.showcase-email {
+    font-size: 1.5rem;
+    width: 400px;
+    border: 1px solid #ffffff5d;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+input[type="email"]::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: lighter;
 }
 
 /*Tabs*/
@@ -250,19 +270,18 @@ footer .footer-cols{
 }
 
 .btn-hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .btn-rounded{
     border-radius: 5px;
-    font-weight: bold;
 }
 .btn-xl{
-    font-size: 2rem;
-    padding: 1.2rem 2.1rem;
-    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 0.85rem;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 0.5rem;
 }
+
 .btn-lg{
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
@@ -311,7 +330,7 @@ footer .footer-cols{
     }
 
     .showcase-content h1{
-        font-size: 2.7rem;
+        font-size: 2.0rem;
         line-height: 1;
         opacity: 1;
     }
@@ -347,7 +366,7 @@ footer .footer-cols{
 @media (max-width:700px) {
 
     .showcase::after{
-        box-shadow: inset 80px 80px 250px #000000,inset -80px -80px 250px #000000;
+        box-shadow: inset 120px 100px 250px #0000005a,inset -120px -100px 250px #0000004c;
 
     }
     #tab-1-content .tab-1-content-inner{
@@ -367,7 +386,7 @@ footer .footer-cols{
 
 @media (max-width:430px) {
     .showcase{
-        min-height: 90vh;
+        min-height: 100vh;
     }
     
     .showcase-top a {
@@ -417,10 +436,28 @@ footer .footer-cols{
     }
 
     .showcase::after{
-        box-shadow: inset 0 15px 50px #000000,inset 0 -15px 50px #000000;
+        box-shadow: inset 120px 100px 250px #0000005a,inset -120px -100px 250px #0000004c;
     }
 
     .showcase-content a{
         font-weight: 500%;
     }
+
+    showcase-email {
+    font-size: 1.5rem;
+    width: 400px;
+    border: 1px solid #ffffff5d;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+input[type="email"]::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: lighter;
+}
 }
