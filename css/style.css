@@ -391,7 +391,7 @@ footer .footer-cols{
 
 @media (max-width:480px) {
     .showcase{
-        height: 100vh;
+        height: 90vh;
         border-left: 1px;
         border-right: 1px;
         
@@ -434,7 +434,7 @@ footer .footer-cols{
         left: 15%;
         transform: translate(-50%, -50%);
     }
-
+    
     .showcase-content h1{
         font-size: 1.9rem;
         line-height: 1.5;
