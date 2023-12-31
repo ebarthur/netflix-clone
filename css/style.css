@@ -393,7 +393,7 @@ footer .footer-cols{
 
 @media (max-width:480px) {
     .showcase{
-        height: 70vh;
+        height: 100vh;
         border-left: 1px;
         border-right: 1px;
         
@@ -441,7 +441,7 @@ footer .footer-cols{
         font-size: 1.9rem;
         line-height: 1.5;
         font-weight: 100%;
-        opacity: 0.8;
+        opacity: 1;
     }
 
     .showcase-content p {
@@ -458,7 +458,7 @@ footer .footer-cols{
     }
 
     .showcase-email {
-        width: 400px;
+        width: 300px;
 
     }
     
