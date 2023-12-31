@@ -301,6 +301,13 @@ footer .footer-cols{
     margin-bottom: 1rem;
 }
 
+.rtw-text {
+    color: #fff;
+    font-size: 1.35rem;
+    opacity: 0.9;
+    max-width: 300px;
+}
+
 .text-md{
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -384,15 +391,20 @@ footer .footer-cols{
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:480px) {
     .showcase{
-        min-height: 100vh;
+        height: 70vh;
+        border-left: 1px;
+        border-right: 1px;
+        
+
     }
     
     .showcase-top a {
         position: absolute;
         top:50%;
         right: -5%;
+        font-weight: 600;
     }
 
     .tabs .container{
@@ -406,10 +418,11 @@ footer .footer-cols{
     }
 
     .btn-xl{
-        font-size: 1.0rem;
-        padding: 1.4rem 2rem;
+        font-size: 1.3rem;
+        padding: 1.4rem 1.4rem;
         width: 200px;
         height: 60px;
+        font-weight: bold;
     }
 
     .text-lg{
@@ -428,11 +441,12 @@ footer .footer-cols{
         font-size: 1.9rem;
         line-height: 1.5;
         font-weight: 100%;
+        opacity: 0.8;
     }
 
     .showcase-content p {
-        font-size: 1.2rem;
-        opacity: 0.9;
+        font-size: 1.4rem;
+        opacity: 0.8;
     }
 
     .showcase::after{
@@ -443,21 +457,21 @@ footer .footer-cols{
         font-weight: 500%;
     }
 
-    showcase-email {
-    font-size: 1.5rem;
-    width: 400px;
-    border: 1px solid #ffffff5d;
-    border-radius: 5px;
-    padding: 1rem;
-    margin: 1rem;
-    text-align: left;
-    background-color: #000;
-    opacity: 0.5;
-}
+    .showcase-email {
+        width: 400px;
 
-input[type="email"]::placeholder {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: lighter;
-}
+    }
+    
+    input[type="email"]::placeholder {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+
+    .rtw-text {
+        color: #fff;
+        font-size: 1.35rem;
+        opacity: 0.8;
+        max-width: 300px;
+    }
 }
